@@ -1,4 +1,4 @@
-public class Eagle extends Animal implements CanSee , CanGly{
+public class Eagle extends Animal implements CanSee , CanFly{
     public Eagle(String name, int age) {
         super (name , age , "Eagle");
     }
